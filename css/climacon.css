@@ -1,0 +1,94 @@
+.climacon:before{
+  speak: none;
+  font-style: normal;
+  font-size: 5em;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(-217deg, #FF087E 0%, #0DD1D8 75%);
+  background: linear-gradient(-217deg, #FF087E 0%, #0DD1D8 75%);
+}
+.bg-clip:before {
+  -webkit-background-clip: text;
+}
+.climacon.sunny:before,
+.climacon.clear:before {
+  content: "\e028"
+}
+.climacon.nt_sunny:before,
+.climacon.nt_clear:before {
+  content: "\e02d"
+}
+.climacon.cloudy:before,
+.climacon.nt_cloudy:before{
+  content: "\e000";
+}
+.climacon.partlysunny:before,
+.climacon.partlycloudy:before,
+.climacon.mostlycloudy:before{
+  content: "\e001";
+}
+.climacon.nt_partlysunny:before,
+.climacon.nt_partlycloudy:before,
+.climacon.nt_mostlycloudy:before{
+  content: "\e002";
+}
+.climacon.rain:before,
+.climacon.nt_rain:before{
+  content: "\e003";
+}
+.climacon.chancerain:before{
+  content: "\e004";
+}
+.climacon.nt_chancerain:before{
+  content: "\e005";
+}
+.climacon.sleet:before,
+.climacon.nt_sleet:before{
+  content:"\e00f";
+}
+.climacon.chancesleet:before{
+  content:"\e010";
+}
+.climacon.nt_chancesleet:before{
+  content:"\e011";
+}
+.climacon.flurries:before,
+.climacon.nt_flurries:before{
+  content:"\e015";
+}
+.climacon.chanceflurries:before{
+  content:"\e016";
+}
+.climacon.nt_chanceflurries:before{
+  content:"\e017";
+}
+.climacon.snow:before,
+.climacon.nt_snow:before{
+  content:"\e018"
+}
+.climacon.chancesnow:before{
+  content:"\e019";
+}
+.climacon.nt_chancesnow:before{
+  content:"\e01a";
+}
+.climacon.fog:before,
+.climacon.nt_fog:before{
+  content:"\e01b";
+}
+.climacon.hazy:before,
+.climacon.nt_hazy:before{
+  content:"\e01e";
+}
+.climacon.tstorms:before,
+.climacon.nt_tstorms:before{
+  content:"\e025";
+}
+.climacon.chancetstorms:before{
+  content:"\e026";
+}
+.climacon.nt_chancetstorms:before{
+  content:"\e027";
+}

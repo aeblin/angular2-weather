@@ -1,0 +1,36 @@
+<div class="container" *ngIf="conditions?.display_location !== undefined">
+  <header class="forecast-header scanlines">
+    <h1>{{conditions?.display_location?.city}}, {{weatherData?.current_observation?.display_location?.state}} | {{weatherData?.current_observation?.display_location?.zip}}</h1>
+    <h3>Forecast retrieved on {{weatherData?.current_observation?.observation_time_rfc822 | date:'MMM d, y, h:mma'}}</h3>
+  </header>
+</div>
+<section class="forecast-simple container" *ngIf="weatherData?.forecast?.simpleforecast?.forecastday !== undefined">
+  <h2>Simple Forecast</h2>
+  <div class="forecast-container gutters large-1of4">
+    <div class="cell scanlines" *ngFor="let forecast of weatherData?.forecast?.simpleforecast?.forecastday">
+      <div class="forecast-icon climacon bg-clip {{forecast.icon}}"></div>
+      <div class="forecast-content">
+        <h3>{{forecast.date.weekday}}</h3>
+        <hr/>
+        <h4>{{forecast.date.monthname_short}} {{forecast.date.day}}</h4>
+        <span>{{forecast.high.fahrenheit}}º/{{forecast.low.fahrenheit}}º</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="forecast-conditions container" *ngIf="weatherData?.forecast?.txt_forecast?.forecastday !== undefined">
+  <h2>Details</h2>
+  <div class="forecast-container gutters large-1of4">
+    <div class="cell scanlines" *ngFor="let forecast of weatherData?.forecast?.txt_forecast?.forecastday">
+      <div>
+        <div class="forecast-icon climacon bg-clip {{forecast.icon}}"></div>
+        <h3>{{forecast.title}}</h3>
+        <hr/>
+      </div>
+      <div class="forecast-content">
+        <span>{{forecast.fcttext}}</span>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="error" *ngIf="errorMessage">{{errorMessage}}</div>

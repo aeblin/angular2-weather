@@ -1,0 +1,20 @@
+.navbar {
+  border-radius: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2.25px;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+.nav>li>a {
+  color: rgb(255,255,255);
+  transition: all 0.3s;
+}
+.nav>li>a:hover {
+  background-color: transparent;
+  color: rgb(13,209,255);
+  text-decoration: line-through;
+}
+.nav>li>a:focus {
+  background-color: transparent;
+}

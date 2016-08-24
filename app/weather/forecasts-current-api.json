@@ -1,0 +1,475 @@
+{
+  "response":{
+    "version":"0.1",
+    "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+    "features":{
+      "forecast":1,
+      "conditions":1
+    }
+  },
+  "current_observation":{
+    "image":{
+      "url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+      "title":"Weather Underground",
+      "link":"http://www.wunderground.com"
+    },
+    "display_location":{
+      "full":"San Francisco, CA",
+      "city":"San Francisco",
+      "state":"CA",
+      "state_name":"California",
+      "country":"US",
+      "country_iso3166":"US",
+      "zip":"94129",
+      "magic":"1",
+      "wmo":"99999",
+      "latitude":"37.79698563",
+      "longitude":"-122.46273804",
+      "elevation":"79.00000000"
+    },
+    "observation_location":{
+      "full":"Camden's Yard, San Francisco, California",
+      "city":"Camden's Yard, San Francisco",
+      "state":"California",
+      "country":"US",
+      "country_iso3166":"US",
+      "latitude":"37.797157",
+      "longitude":"-122.462082",
+      "elevation":"194 ft"
+    },
+    "estimated":{
+
+    },
+    "station_id":"KCASANFR917",
+    "observation_time":"Last Updated on August 23, 1:10 PM PDT",
+    "observation_time_rfc822":"Tue, 23 Aug 2016 13:10:31 -0700",
+    "observation_epoch":"1471983031",
+    "local_time_rfc822":"Tue, 23 Aug 2016 13:10:42 -0700",
+    "local_epoch":"1471983042",
+    "local_tz_short":"PDT",
+    "local_tz_long":"America/Los_Angeles",
+    "local_tz_offset":"-0700",
+    "weather":"Partly Cloudy",
+    "temperature_string":"64.8 F (18.2 C)",
+    "temp_f":64.8,
+    "temp_c":18.2,
+    "relative_humidity":"79%",
+    "wind_string":"From the South at 2.9 MPH Gusting to 3.0 MPH",
+    "wind_dir":"South",
+    "wind_degrees":174,
+    "wind_mph":2.9,
+    "wind_gust_mph":"3.0",
+    "wind_kph":4.7,
+    "wind_gust_kph":"4.8",
+    "pressure_mb":"1018",
+    "pressure_in":"30.07",
+    "pressure_trend":"-",
+    "dewpoint_string":"58 F (14 C)",
+    "dewpoint_f":58,
+    "dewpoint_c":14,
+    "heat_index_string":"NA",
+    "heat_index_f":"NA",
+    "heat_index_c":"NA",
+    "windchill_string":"NA",
+    "windchill_f":"NA",
+    "windchill_c":"NA",
+    "feelslike_string":"64.8 F (18.2 C)",
+    "feelslike_f":"64.8",
+    "feelslike_c":"18.2",
+    "visibility_mi":"10.0",
+    "visibility_km":"16.1",
+    "solarradiation":"--",
+    "UV":"10",
+    "precip_1hr_string":"0.00 in ( 0 mm)",
+    "precip_1hr_in":"0.00",
+    "precip_1hr_metric":" 0",
+    "precip_today_string":"0.00 in (0 mm)",
+    "precip_today_in":"0.00",
+    "precip_today_metric":"0",
+    "icon":"partlycloudy",
+    "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+    "forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+    "history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR917",
+    "ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.797157,-122.462082",
+    "nowcast":""
+  },
+  "forecast":{
+    "txt_forecast":{
+      "date":"12:06 PM PDT",
+      "forecastday":[
+        {
+          "period":0,
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "title":"Tuesday",
+          "fcttext":"Lots of sunshine. High near 65F. Winds W at 10 to 20 mph.",
+          "fcttext_metric":"Sunshine and clouds mixed. High 18C. Winds W at 15 to 30 km/h.",
+          "pop":"0"
+        },
+        {
+          "period":1,
+          "icon":"nt_mostlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title":"Tuesday Night",
+          "fcttext":"Partly cloudy this evening, then becoming cloudy after midnight. Low 54F. Winds W at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy skies early will give way to cloudy skies late. Low 12C. Winds W at 15 to 25 km/h.",
+          "pop":"10"
+        },
+        {
+          "period":2,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Wednesday",
+          "fcttext":"Morning clouds will give way to sunshine for the afternoon. High 61F. Winds W at 10 to 20 mph.",
+          "fcttext_metric":"Cloudy early, becoming mostly sunny in the afternoon. High 16C. Winds W at 15 to 30 km/h.",
+          "pop":"10"
+        },
+        {
+          "period":3,
+          "icon":"nt_partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title":"Wednesday Night",
+          "fcttext":"Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 53F. Winds W at 10 to 20 mph.",
+          "fcttext_metric":"Partly cloudy early with increasing clouds overnight. Low 12C. Winds W at 15 to 30 km/h.",
+          "pop":"20"
+        },
+        {
+          "period":4,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Thursday",
+          "fcttext":"Mostly cloudy skies early will become partly cloudy later in the day. High 61F. Winds WSW at 10 to 20 mph.",
+          "fcttext_metric":"Considerable clouds early. Some decrease in clouds later in the day. High 16C. Winds WSW at 15 to 30 km/h.",
+          "pop":"10"
+        },
+        {
+          "period":5,
+          "icon":"nt_mostlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title":"Thursday Night",
+          "fcttext":"Partly cloudy during the evening followed by cloudy skies overnight. Low around 55F. Winds WSW at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy skies in the evening, then becoming cloudy overnight. Low 13C. Winds WSW at 15 to 25 km/h.",
+          "pop":"10"
+        },
+        {
+          "period":6,
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title":"Friday",
+          "fcttext":"Cloudy early with partial sunshine expected late. High 63F. Winds SW at 10 to 20 mph.",
+          "fcttext_metric":"Cloudy skies early, then partly cloudy in the afternoon. High 17C. Winds SW at 15 to 30 km/h.",
+          "pop":"10"
+        },
+        {
+          "period":7,
+          "icon":"nt_mostlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title":"Friday Night",
+          "fcttext":"Partly cloudy skies early will become overcast later during the night. Low 57F. Winds WSW at 10 to 15 mph.",
+          "fcttext_metric":"Partly cloudy skies in the evening, then becoming cloudy overnight. Low 14C. Winds WSW at 15 to 25 km/h.",
+          "pop":"10"
+        }
+      ]
+    },
+    "simpleforecast":{
+      "forecastday":[
+        {
+          "date":{
+            "epoch":"1472004000",
+            "pretty":"7:00 PM PDT on August 23, 2016",
+            "day":23,
+            "month":8,
+            "year":2016,
+            "yday":235,
+            "hour":19,
+            "min":"00",
+            "sec":0,
+            "isdst":"1",
+            "monthname":"August",
+            "monthname_short":"Aug",
+            "weekday_short":"Tue",
+            "weekday":"Tuesday",
+            "ampm":"PM",
+            "tz_short":"PDT",
+            "tz_long":"America/Los_Angeles"
+          },
+          "period":1,
+          "high":{
+            "fahrenheit":"66",
+            "celsius":"19"
+          },
+          "low":{
+            "fahrenheit":"54",
+            "celsius":"12"
+          },
+          "conditions":"Clear",
+          "icon":"clear",
+          "icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon":"",
+          "pop":0,
+          "qpf_allday":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_day":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_night":{
+            "in":0,
+            "mm":0
+          },
+          "snow_allday":{
+            "in":0,
+            "cm":0
+          },
+          "snow_day":{
+            "in":0,
+            "cm":0
+          },
+          "snow_night":{
+            "in":0,
+            "cm":0
+          },
+          "maxwind":{
+            "mph":20,
+            "kph":32,
+            "dir":"W",
+            "degrees":265
+          },
+          "avewind":{
+            "mph":15,
+            "kph":24,
+            "dir":"W",
+            "degrees":265
+          },
+          "avehumidity":69,
+          "maxhumidity":0,
+          "minhumidity":0
+        },
+        {
+          "date":{
+            "epoch":"1472090400",
+            "pretty":"7:00 PM PDT on August 24, 2016",
+            "day":24,
+            "month":8,
+            "year":2016,
+            "yday":236,
+            "hour":19,
+            "min":"00",
+            "sec":0,
+            "isdst":"1",
+            "monthname":"August",
+            "monthname_short":"Aug",
+            "weekday_short":"Wed",
+            "weekday":"Wednesday",
+            "ampm":"PM",
+            "tz_short":"PDT",
+            "tz_long":"America/Los_Angeles"
+          },
+          "period":2,
+          "high":{
+            "fahrenheit":"61",
+            "celsius":"16"
+          },
+          "low":{
+            "fahrenheit":"53",
+            "celsius":"12"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_day":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_night":{
+            "in":0,
+            "mm":0
+          },
+          "snow_allday":{
+            "in":0,
+            "cm":0
+          },
+          "snow_day":{
+            "in":0,
+            "cm":0
+          },
+          "snow_night":{
+            "in":0,
+            "cm":0
+          },
+          "maxwind":{
+            "mph":20,
+            "kph":32,
+            "dir":"W",
+            "degrees":262
+          },
+          "avewind":{
+            "mph":15,
+            "kph":24,
+            "dir":"W",
+            "degrees":262
+          },
+          "avehumidity":90,
+          "maxhumidity":0,
+          "minhumidity":0
+        },
+        {
+          "date":{
+            "epoch":"1472176800",
+            "pretty":"7:00 PM PDT on August 25, 2016",
+            "day":25,
+            "month":8,
+            "year":2016,
+            "yday":237,
+            "hour":19,
+            "min":"00",
+            "sec":0,
+            "isdst":"1",
+            "monthname":"August",
+            "monthname_short":"Aug",
+            "weekday_short":"Thu",
+            "weekday":"Thursday",
+            "ampm":"PM",
+            "tz_short":"PDT",
+            "tz_long":"America/Los_Angeles"
+          },
+          "period":3,
+          "high":{
+            "fahrenheit":"61",
+            "celsius":"16"
+          },
+          "low":{
+            "fahrenheit":"55",
+            "celsius":"13"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_day":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_night":{
+            "in":0,
+            "mm":0
+          },
+          "snow_allday":{
+            "in":0,
+            "cm":0
+          },
+          "snow_day":{
+            "in":0,
+            "cm":0
+          },
+          "snow_night":{
+            "in":0,
+            "cm":0
+          },
+          "maxwind":{
+            "mph":20,
+            "kph":32,
+            "dir":"WSW",
+            "degrees":254
+          },
+          "avewind":{
+            "mph":13,
+            "kph":21,
+            "dir":"WSW",
+            "degrees":254
+          },
+          "avehumidity":94,
+          "maxhumidity":0,
+          "minhumidity":0
+        },
+        {
+          "date":{
+            "epoch":"1472263200",
+            "pretty":"7:00 PM PDT on August 26, 2016",
+            "day":26,
+            "month":8,
+            "year":2016,
+            "yday":238,
+            "hour":19,
+            "min":"00",
+            "sec":0,
+            "isdst":"1",
+            "monthname":"August",
+            "monthname_short":"Aug",
+            "weekday_short":"Fri",
+            "weekday":"Friday",
+            "ampm":"PM",
+            "tz_short":"PDT",
+            "tz_long":"America/Los_Angeles"
+          },
+          "period":4,
+          "high":{
+            "fahrenheit":"63",
+            "celsius":"17"
+          },
+          "low":{
+            "fahrenheit":"57",
+            "celsius":"14"
+          },
+          "conditions":"Partly Cloudy",
+          "icon":"partlycloudy",
+          "icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon":"",
+          "pop":10,
+          "qpf_allday":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_day":{
+            "in":0,
+            "mm":0
+          },
+          "qpf_night":{
+            "in":0,
+            "mm":0
+          },
+          "snow_allday":{
+            "in":0,
+            "cm":0
+          },
+          "snow_day":{
+            "in":0,
+            "cm":0
+          },
+          "snow_night":{
+            "in":0,
+            "cm":0
+          },
+          "maxwind":{
+            "mph":20,
+            "kph":32,
+            "dir":"SW",
+            "degrees":234
+          },
+          "avewind":{
+            "mph":15,
+            "kph":24,
+            "dir":"SW",
+            "degrees":234
+          },
+          "avehumidity":87,
+          "maxhumidity":0,
+          "minhumidity":0
+        }
+      ]
+    }
+  }
+}

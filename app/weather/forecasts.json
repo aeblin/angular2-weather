@@ -1,0 +1,32 @@
+{
+  "forecastData":[
+    {
+      "id": 1,
+      "location": "San Francisco",
+      "date": "2512-01-04T14:00:00",
+      "weather": "Partly Cloudy",
+      "temperature_string": "61.7 F (16.5 C)",
+      "bonus_thing": "foo",
+      "whoa_there": {
+        "woo_nelly": "you bet"
+      }
+    }, {
+      "id": 2,
+      "location": "San Francisco",
+      "date": "2512-01-04T14:00:00",
+      "weather": "Partly Cloudy",
+      "temperature_string": "61.7 F (16.5 C)",
+      "bonus_thing": "bar",
+      "whoa_there": {
+        "woo_nelly": "you bet"
+      }
+    }, {
+      "id": 3,
+      "location": "San Francisco",
+      "date": "2512-01-04T14:00:00",
+      "weather": "Partly Cloudy",
+      "temperature_string": "61.7 F (16.5 C)",
+      "bonus_thing": "baz"
+    }
+  ]
+}

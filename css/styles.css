@@ -1,0 +1,55 @@
+/* This would be bootstrap-custom.css */
+
+/* ----- Custom Theme ----- */
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #0f0014;
+  color: rgb(255,255,255);
+  font-family: 'Source Code Pro', monospace;
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+h2 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgba(13,209,255,1);
+}
+
+::selection {
+  background:rgba(255,8,126,0.75);
+}
+
+.scanlines {
+  position: relative;
+}
+
+.scanlines::before{
+  content:" ";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:linear-gradient(rgba(15, 0, 20, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 255, 0.02), rgba(0, 0, 255, 0.06));
+  z-index:2;
+  background-size:100% 2px, 3px 100%;
+  pointer-events:none;
+}
+
+.input-group > .form-control, .input-group {
+  z-index: 1;
+}
+.input-group > .input-group-btn:last-child>.btn {
+  z-index: 1;
+}

@@ -1,0 +1,88 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast": 1
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "1:38 PM PDT",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Friday",
+          "fcttext": "A mix of clouds and sun. High 62F. Winds W at 10 to 20 mph.",
+          "fcttext_metric": "A mix of clouds and sun. High 17C. Winds W at 15 to 30 km/h.",
+          "pop": "0"
+        },
+        {
+          "period": 1,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title": "Friday Night",
+          "fcttext": "Partly cloudy this evening, then becoming cloudy after midnight. Low 54F. Winds W at 10 to 15 mph.",
+          "fcttext_metric": "Partly cloudy early followed by cloudy skies overnight. Low 12C. Winds W at 15 to 25 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 2,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Saturday",
+          "fcttext": "Cloudy skies early, then partly cloudy in the afternoon. High 63F. Winds W at 10 to 20 mph.",
+          "fcttext_metric": "Cloudy skies early will become partly cloudy later in the day. High 17C. Winds W at 15 to 30 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 3,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title": "Saturday Night",
+          "fcttext": "Partly cloudy during the evening followed by cloudy skies overnight. Low near 55F. Winds W at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy during the evening followed by cloudy skies overnight. Low 13C. Winds W at 15 to 25 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 4,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Sunday",
+          "fcttext": "Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 61F. Winds W at 10 to 20 mph.",
+          "fcttext_metric": "Cloudy early, becoming mostly sunny in the afternoon. High 16C. Winds W at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 5,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Sunday Night",
+          "fcttext": "Partly cloudy in the evening with more clouds for later at night. Low near 55F. Winds W at 10 to 15 mph.",
+          "fcttext_metric": "Partly cloudy early with increasing clouds overnight. Low 13C. Winds W at 15 to 25 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 6,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Monday",
+          "fcttext": "Morning clouds will give way to sunshine for the afternoon. High 61F. Winds W at 10 to 20 mph.",
+          "fcttext_metric": "Cloudy early, becoming mostly sunny in the afternoon. High 16C. Winds W at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 7,
+          "icon": "nt_mostlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+          "title": "Monday Night",
+          "fcttext": "Partly cloudy during the evening followed by cloudy skies overnight. Low 53F. Winds W at 10 to 15 mph.",
+          "fcttext_metric": "Partly cloudy skies during the evening will give way to cloudy skies overnight. Low 12C. Winds W at 15 to 25 km/h.",
+          "pop": "10"
+        }
+      ]
+    }
+  }
+}
